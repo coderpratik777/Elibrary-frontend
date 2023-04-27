@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../CSS/style.css";
-import Login from "../Login/login";
-import Signup from "../Signup/signup";
+import Login from "../User/Login/login";
+import Signup from "../User/Signup/signup";
 
 export default function Navbar() {
   const [showLoginModal, setShowLoginModal] = useState(false);
